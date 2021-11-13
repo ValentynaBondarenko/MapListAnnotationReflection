@@ -51,23 +51,3 @@ public class FileAnalyzer {
         }
     }
 }
-
-/*
-1: Написать программу FileAnalyzer, которая в консоли принимает 2 параметра:
-1) путь к файлу
-2) слово
-Usage:
-java FileAnalyzer C:/test/story.txt duck
-Выводит:
-1) Кол-во вхождений искомого слова в файле
-2) Все предложения содержащие искомое слово(предложение заканчивается символами ".", "?", "!"), каждое преждложение с новой строки.
- */
-//https://www.youtube.com/watch?v=j3I-jLGW8yU&ab_channel=alishev
-//https://javarush.ru/groups/posts/regulyarnye-vyrazheniya-v-java
-
-     /*
-        analyze(String path, String word)
-        String text = readFile(path);
-        List<String> sentences = splitToSentences(text);
-        int count = countWords(filteredSentences, word);
-        */
