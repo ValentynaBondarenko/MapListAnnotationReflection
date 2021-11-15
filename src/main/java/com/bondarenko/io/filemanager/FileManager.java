@@ -1,4 +1,4 @@
-package com.bondarenko.io;
+package com.bondarenko.io.filemanager;
 
 import java.io.File;
 import java.io.FileInputStream;

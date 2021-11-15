@@ -27,6 +27,7 @@ public class ArrayList<T> implements List<T> {
         }
         array[size] = value;
         size++;
+
     }
 
     @Override
