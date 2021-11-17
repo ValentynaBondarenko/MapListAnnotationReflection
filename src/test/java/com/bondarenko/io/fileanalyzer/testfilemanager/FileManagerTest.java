@@ -1,4 +1,4 @@
-package com.bondarenko.testfilemanager;
+package com.bondarenko.io.fileanalyzer.testfilemanager;
 
 import com.bondarenko.io.filemanager.FileManager;
 import org.junit.After;

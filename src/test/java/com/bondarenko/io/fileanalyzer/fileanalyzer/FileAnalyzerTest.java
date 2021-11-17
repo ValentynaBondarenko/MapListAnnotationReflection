@@ -1,4 +1,4 @@
-package com.bondarenko.fileanalyzer;
+package com.bondarenko.io.fileanalyzer.fileanalyzer;
 
 import com.bondarenko.io.fileanalyzer.FileAnalyzer;
 import org.junit.Test;
@@ -13,8 +13,9 @@ import static org.junit.Assert.*;
 public class FileAnalyzerTest {
     FileAnalyzer fileAnalyzer = new FileAnalyzer();
     String separator = File.separator;
-    String path = "E:" + separator + "Робоча 2021" + separator + "Java" + separator + "datastructure" + separator + "src" + separator + "test" + separator + "java" + separator + "com" + separator + "bondarenko" + separator + "fileanalyzer" + separator + "story";
-    String story = "Listen!One day! What happened?duck tried to kill hunter.It was a very angry duck.Was duck.";
+    String path = "E:" + separator + "Робоча 2021" + separator + "Java" + separator + "datastructure" + separator + "src" + separator + "test" + separator + "java" + separator + "com" + separator + "bondarenko" +separator+"io"+ separator + "fileanalyzer"+ separator+"fileanalyzer"+ separator + "story";
+
+   String story = "Listen!One day! What happened?duck tried to kill hunter.It was a very angry duck.Was duck.";
 
     @Test
     public void testReadFile() throws IOException {
